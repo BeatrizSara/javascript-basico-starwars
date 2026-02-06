@@ -1,0 +1,14 @@
+#app {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.characters {   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas por linha; 1 elemento por coluna */
+}
+
+.item img{
+    width: 200px;
+}
