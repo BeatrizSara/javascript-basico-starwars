@@ -24,7 +24,7 @@ var subtracao = n1 - n2
 var multiplicacao = n1 * n2
 var divisao = n1 / n2
 
-console.log(soma)
-console.log(subtracao)
-console.log(multiplicacao)
-console.log(divisao)
+console.log(typeof soma)
+console.log(typeof subtracao)
+console.log(typeof multiplicacao)
+console.log(typeof divisao)
