@@ -58,3 +58,32 @@ console.log(menor)
 console.log(maiorIgual)
 console.log(menorIgual)
 */
+
+// Funções
+
+/*
+function saudacao() {
+    console.log("Olá, seja bem-vindo ao curso de JavaScript para QAs!");
+}
+
+saudacao()
+
+function soma(a, b) {
+    console.log (a + b)
+}
+soma(5, 10)
+
+function saudacao(nome) {
+    console.log("Olá, " + nome + "! Seja bem-vindo ao curso de JavaScript para QAs!");
+}
+
+saudacao("Mestre Yoda")
+
+
+function soma(a, b) {
+    return a + b
+}   
+
+var resultado = soma(5, 10)
+console.log(resultado)
+*/
