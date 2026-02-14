@@ -97,28 +97,45 @@ console.log(resultado)
 Sendo um cliente corretista do banco
 Posso sacar dinheiro do caixa eletrônico
 Para poder comprar em lugares que não aceitam cartão de débido ou crédito
+*/
+var saldo = 1000
+var valorMaximo = 700
 
+
+function sacar(valor) {
+    if (valor > saldo) {
+        console.log("Valor do saque é maior do que o saldo disponível.")
+    } else if (valor > 700) {
+        console.log("Valor do saque é maior do que o valor máximo permitido por operação.")
+    } else {
+        saldo = saldo - valor
+        console.log("Saque realizado com sucesso. Saldo atual: R$ " + saldo)
+    }
+}
+sacar(500)
+
+/*
 Cenário 1: Saque com sucesso
-Dado que meu saldo é de R$ 1000,00
-Quando faço um saque de R$ 500,00
-Entao o valor do meu saque deve ser deduzido do meu saldo
+-Dado que meu saldo é de R$ 1000,00
+-Quando faço um saque de R$ 500,00
+-Entao o valor do meu saque deve ser deduzido do meu saldo
 
+*/
 
-
+/*
 Cenário 2: Saque com valor superior ao saldo
-Dado que meu saldo é de R$ 1000,00
-Quando faço um saque de R$ 1001,00
-Então não deve deduzir o valor do meu saldo
-E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o saldo disponível
+-Dado que meu saldo é de R$ 1000,00
+-Quando faço um saque de R$ 1001,00
+-Então não deve deduzir o valor do meu saldo
+-E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o saldo disponível
+*/
 
-
-
+/*
 Cenário 3: Saque com valor máximo
-Dado que meu saldo é de R$ 1000,00
-E o valor maximo por por operacao é de R$ 700,00 (PO informou para o QA o valor maximo por operacao)
-Quando faço um saque de R$ 701,00
-Então não deve deduzir o valor do meu saldo
-E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o valor máximo permitido por operação
-
+-Dado que meu saldo é de R$ 1000,00
+-E o valor maximo por por operacao é de R$ 700,00 (PO informou para o QA o valor maximo por operacao)
+-Quando faço um saque de R$ 701,00
+-Então não deve deduzir o valor do meu saldo
+-E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o valor máximo permitido por operação
 
 */ 
