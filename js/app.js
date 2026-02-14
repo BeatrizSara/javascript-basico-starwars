@@ -104,10 +104,9 @@ var valorMaximo = 700
 
 function sacar(valor) {
     saldo = saldo - valor
-    console.log("Saque realizado com sucesso! Seu saldo atual é de R$ " + saldo + ",00")
 }
 sacar(500)
-console.log("Saldo atual: R$ " + saldo + ",00")
+console.log(saldo)
 
 /*
 Cenário 1: Saque com sucesso
