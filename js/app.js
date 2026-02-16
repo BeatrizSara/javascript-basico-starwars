@@ -101,7 +101,6 @@ Para poder comprar em lugares que não aceitam cartão de débido ou crédito
 var saldo = 1000
 var valorMaximo = 700
 
-
 function sacar(valor) {
     saldo = saldo - valor
 }
