@@ -98,13 +98,21 @@ Sendo um cliente corretista do banco
 Posso sacar dinheiro do caixa eletrônico
 Para poder comprar em lugares que não aceitam cartão de débido ou crédito
 */
+
 var saldo = 1000
-var valorMaximo = 700
 
 function sacar(valor) {
-    saldo = saldo - valor
+    
+
+    if (valor > saldo) {
+        console.log("Valor do saque é maior do que o saldo disponível.")
+    }else{
+        saldo = saldo - valor
+    }
+
 }
-sacar(500)
+
+sacar(1001)
 console.log(saldo)
 
 /*
