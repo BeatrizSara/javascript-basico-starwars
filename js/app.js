@@ -110,8 +110,8 @@ function sacar(valor) {
     }else if (valor > 700) {
         console.log("Valor do saque é maior do que o valor máximo permitido por operação.")
     else{
-        saldo = saldo - valor
-    }
+        saldo = saldo - valor}
+    }  
 
 }
 
@@ -142,4 +142,4 @@ Cenário 3: Saque com valor máximo
 -Então não deve deduzir o valor do meu saldo
 -E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o valor máximo permitido por operação
 
-*/ 
+*/
