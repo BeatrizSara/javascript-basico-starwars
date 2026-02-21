@@ -141,5 +141,15 @@ Cenário 3: Saque com valor máximo
 -Quando faço um saque de R$ 701,00
 -Então não deve deduzir o valor do meu saldo
 -E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o valor máximo permitido por operação
-
 */
+
+
+// Arrays // Estrutura de dados que armazena uma coleção de elementos
+
+
+var gaveteiro = ["meias", "gravatas", "documentos", "salgadinhos"]
+
+console.log(gaveteiro[0]) // meias
+console.log(gaveteiro[1]) // gravatas
+console.log(gaveteiro[2]) // documentos
+console.log(gaveteiro[3]) // salgadinhos
