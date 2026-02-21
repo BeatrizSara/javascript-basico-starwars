@@ -109,9 +109,9 @@ function sacar(valor) {
 
     }else if (valor > 700) {
         console.log("Valor do saque é maior do que o valor máximo permitido por operação.")
-    else{
-        saldo = saldo - valor}
-    }  
+    }else{
+        saldo = saldo - valor
+    }
 
 }
 
