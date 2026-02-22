@@ -1,6 +1,6 @@
 console.log("Hello, Star Wars!");
 
-var userName = "Fernando Papito"
+var userName = "Beatriz";
 
 document.getElementById('user-name').innerHTML = userName;
 
@@ -157,6 +157,7 @@ console.log(gaveteiro[2]) // documentos
 console.log(gaveteiro[3]) // salgadinhos
 */
 
+/* 
 var personagens = ["Mestre Yoda", "Luke Skywalker", "Princesa Leia", "Darth Vader"]
 
 personagens.push("C3PO") // Adiciona um elemento no final do array
@@ -173,3 +174,19 @@ personagens = personagens.filter(function(p) {
 }) // Remove o elemento "Darth Vader" do array
 
 console.log(personagens)
+*/
+
+// Controles de Repetição (Loops)
+
+
+var personagens = ["Mestre Yoda", "Luke Skywalker", "Princesa Leia", "Darth Vader", "C3PO", "R2-D2"]
+
+/*
+personagens.forEach(function(p) {
+    console.log(p)
+} ) // vai percorrer cada elemento do array e executar a função para cada um deles
+*/
+
+for (var i in personagens) {
+    console.log(personagens[i])
+} // vai percorrer cada índice do array e executar o código para cada um deles
