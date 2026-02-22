@@ -178,10 +178,10 @@ console.log(personagens)
 
 // Controles de Repetição (Loops)
 
-
+/*
 var personagens = ["Mestre Yoda", "Luke Skywalker", "Princesa Leia", "Darth Vader", "C3PO", "R2-D2"]
 
-/*
+
 personagens.forEach(function(p) {
     console.log(p)
 } ) // vai percorrer cada elemento do array e executar a função para cada um deles
@@ -196,5 +196,6 @@ for (var i in personagens) {
 for (var i = 0; i <= 10; i++) {
     console.log(i)
 } // código vai ser executado até a condição retornar false, ou seja, até o valor de i ser maior do que 10
-
 */
+
+// Objetos // Estrutura de dados que armazena uma coleção de propriedades e valores
