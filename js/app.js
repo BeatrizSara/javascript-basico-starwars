@@ -99,6 +99,7 @@ Posso sacar dinheiro do caixa eletrônico
 Para poder comprar em lugares que não aceitam cartão de débido ou crédito
 */
 
+/*
 var saldo = 1000
 
 function sacar(valor) {
@@ -117,6 +118,7 @@ function sacar(valor) {
 
 sacar(701)
 console.log(saldo)
+*/
 
 /*
 Cenário 1: Saque com sucesso
@@ -146,10 +148,28 @@ Cenário 3: Saque com valor máximo
 
 // Arrays // Estrutura de dados que armazena uma coleção de elementos
 
-
+/*
 var gaveteiro = ["meias", "gravatas", "documentos", "salgadinhos"]
 
 console.log(gaveteiro[0]) // meias
 console.log(gaveteiro[1]) // gravatas
 console.log(gaveteiro[2]) // documentos
 console.log(gaveteiro[3]) // salgadinhos
+*/
+
+var personagens = ["Mestre Yoda", "Luke Skywalker", "Princesa Leia", "Darth Vader"]
+
+personagens.push("C3PO") // Adiciona um elemento no final do array
+personagens.push("R2-D2") // Adiciona um elemento no final do array
+
+// personagens.pop() // Remove o último elemento do array
+
+personagens = personagens.filter(function(p) {
+    return p !== "Darth Vader"
+}) // Remove o elemento "Darth Vader" do array
+
+personagens = personagens.filter(function(p) {
+    return p === "Mestre Yoda"
+}) // Remove o elemento "Darth Vader" do array
+
+console.log(personagens)
