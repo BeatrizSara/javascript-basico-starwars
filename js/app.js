@@ -191,8 +191,10 @@ for (var i in personagens) {
     console.log(personagens[i])
 } // vai percorrer cada índice do array e executar o código para cada um deles
 
-*/
+
 
 for (var i = 0; i <= 10; i++) {
     console.log(i)
 } // código vai ser executado até a condição retornar false, ou seja, até o valor de i ser maior do que 10
+
+*/
