@@ -199,6 +199,7 @@ for (var i = 0; i <= 10; i++) {
 */
 
 // Objetos // Estrutura de dados que armazena uma coleção de propriedades e valores
+// Podemos agrupar tudo em uma única variável, ao invés de criar uma variável para cada propriedade
 
 var yoda = {
     nome: "Mestre Yoda",
