@@ -200,3 +200,7 @@ for (var i = 0; i <= 10; i++) {
 
 // Objetos // Estrutura de dados que armazena uma coleção de propriedades e valores
 
+var yoda = {
+    nome: "Mestre Yoda",
+    idade: 100,
+    jedi: true}
