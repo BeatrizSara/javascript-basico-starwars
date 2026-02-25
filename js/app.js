@@ -201,6 +201,8 @@ for (var i = 0; i <= 10; i++) {
 // Objetos // Estrutura de dados que armazena uma coleção de propriedades e valores
 // Podemos agrupar tudo em uma única variável, ao invés de criar uma variável para cada propriedade
 
+/*
+
 var yoda = {
     nome: "Mestre Yoda",
     idade: 100,
@@ -212,3 +214,16 @@ var yoda = {
 
 // console.log(yoda) // Mestre Yoda
 yoda.mostra_idade() // A idade de Mestre Yoda é 100 anos.
+
+*/
+
+// Constantes - const //
+
+// variaveis podem ter valores que podem variar
+// var passa a ser const
+// valor de uma const é imutavel
+var nome = "Darth Vader"
+console.log(nome)
+
+nome = "Mestre Yoda"
+console.log(nome)
