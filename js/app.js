@@ -3,3 +3,5 @@ const App = new Vue({
     title: 'Star Wars',
     userName: 'Beatriz',
 }) 
+
+//exemplo de uso do Vue.js
