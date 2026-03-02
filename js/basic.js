@@ -149,14 +149,12 @@ Cenário 3: Saque com valor máximo
 // Arrays // Estrutura de dados que armazena uma coleção de elementos
 
 /*
-
 var gaveteiro = ["meias", "gravatas", "documentos", "salgadinhos"]
 
 console.log(gaveteiro[0]) // meias
 console.log(gaveteiro[1]) // gravatas
 console.log(gaveteiro[2]) // documentos
 console.log(gaveteiro[3]) // salgadinhos
-
 */
 
 /* 
