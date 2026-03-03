@@ -145,7 +145,6 @@ Cenário 3: Saque com valor máximo
 -E deve mostrar uma mensagem de alerta informando que o valor do saque é maior do que o valor máximo permitido por operação
 */
 
-
 // Arrays // Estrutura de dados que armazena uma coleção de elementos
 
 /*
