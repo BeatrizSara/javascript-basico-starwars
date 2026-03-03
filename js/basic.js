@@ -118,6 +118,7 @@ function sacar(valor) {
 
 sacar(701)
 console.log(saldo)
+
 */
 
 /*
