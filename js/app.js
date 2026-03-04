@@ -1,5 +1,5 @@
 const App = new Vue({
-    el: '#app', // div principal da aplicação.
+    el: '#app', // ele vai entender que essa div é a principal da aplicação.
     title: 'Star Wars',
     userName: 'Beatriz',
 }) 
