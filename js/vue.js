@@ -26,9 +26,11 @@
     function isFalse(v) {
         return v === false;
     }
+
     /**
      * Check if value is primitive.
      */
+    
     function isPrimitive(value) {
         return (typeof value === 'string' ||
             typeof value === 'number' ||
