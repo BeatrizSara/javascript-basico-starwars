@@ -48,9 +48,11 @@ const LIST = [
 
 const App = new Vue({
     el: '#app', // ele vai entender que essa div é a principal da aplicação.
-    title: 'Star Wars Lego',
-    userName: 'Beatriz',
-    characters: LIST
+    data: {
+        title: 'Star Wars Lego',
+        userName: 'Beatriz',
+        characters: LIST
+    }
 }) 
 
 //exemplo de uso do Vue.js
