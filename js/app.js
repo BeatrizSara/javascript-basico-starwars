@@ -1,4 +1,5 @@
 // Tem um array de objetos com 8 itens.
+
 const LIST = [
     {
         id: 1,
