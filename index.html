@@ -15,8 +15,8 @@
 
         <div class="characters">
             <div class="item" v-for="item of characters">
-                <img src="images/yoda.png" alt="Yoda">
-                <p>Yoda</p>
+                <img :src="item.avatar" :alt="item.name">
+                <p>{{item.name}}</p>
             </div>
         </div>
 
