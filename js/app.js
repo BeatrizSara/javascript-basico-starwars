@@ -51,8 +51,16 @@ const App = new Vue({
     data: {
         title: 'Star Wars Lego',
         userName: 'Beatriz',
-        characters: LIST
-    }
+        characters: LIST,
+        searchName: ''
+    },
+
+    methods: {
+        like(userName){
+            alert(`O personagem ${userName} recebeu um like!`);
+        }
+        
+    } // Essa função vai receber o nome do personagem
 }) 
 
 //exemplo de uso do Vue.js
