@@ -58,8 +58,16 @@ const App = new Vue({
     methods: {
         like(userName){
             alert(`O personagem ${userName} recebeu um like!`);
-        }
-        
+        },
+        search() {
+            const list = this.characters
+            const result = list.filter(function(item){
+                return item.name === this.searchName
+            })
+            this.characters = result
+        })
+
+
     } // Essa função vai receber o nome do personagem
 }) 
 
