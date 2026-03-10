@@ -64,8 +64,9 @@ const App = new Vue({
             const result = list.filter(function(item){
                 return item.name === this.searchName
             })
+
             this.characters = result
-        })
+        }
 
 
     } // Essa função vai receber o nome do personagem
