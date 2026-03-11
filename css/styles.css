@@ -58,8 +58,8 @@ body {
    color: #FD4;
 }
 
-.characters .item .remove {
-   color: rgb(205, 66,145)
+.characters .item .delete {
+   color: rgb(200, 26, 26)
 }
 
 input {
