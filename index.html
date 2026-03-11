@@ -24,6 +24,7 @@
             <div class="item" v-for="item of characters">
                 <img :src="item.avatar" :alt="item.name">
                 <p>{{item.name}}</p>
+                <span class="material-symbols-outlined">favorite</span>
                 <button @click="like(item.name)">Like</button>
                 <button @click="remove(item.id)">Remove</button>
 
