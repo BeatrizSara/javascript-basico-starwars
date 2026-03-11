@@ -13,7 +13,7 @@
         <h1>Lego Star Wars</h1>
         <small>Hello, {{ userName }}</small>
 
-        <form @subbmit.prevent="search"> <!-- Prevent form submission to avoid page reload -->
+        <form @submit.prevent="search"> <!-- Prevent form submission to avoid page reload -->
             <input placeholder="Busque por nome..." v-model="searchName" />
             <button type="button" @click="search()">Buscar</button>
         </form>
