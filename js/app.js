@@ -60,7 +60,7 @@ const App = new Vue({
             alert(`O personagem ${userName} recebeu um like!`);
         },
         search() {
-            const list = LIST
+            const list = this.characters = LIST
 
             const result = list.filter(item => { // Função de seta
                 return item.name === this.searchName
