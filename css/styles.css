@@ -56,10 +56,12 @@ body {
 
 .characters .item .like {
    color: #FD4;
+   cursor: pointer;
 }
 
 .characters .item .delete {
-   color: rgb(200, 26, 26)
+   color: rgb(200, 26, 26);
+   cursor: pointer;
 }
 
 input {
