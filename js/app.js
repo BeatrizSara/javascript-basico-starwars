@@ -63,7 +63,7 @@ const App = new Vue({
             const list = this.characters = LIST
 
             const result = list.filter(item => { // Função de seta
-                return item.name === this.searchName
+                return item.name.toLowerCase().includes(this.searchName.toLowerCase())
             })
 
             if (result.length <= 0) {
@@ -77,3 +77,5 @@ const App = new Vue({
 }) 
 
 //exemplo de uso do Vue.js
+
+// Ajuste: uso de toLowerCase() para permitir busca sem diferenciação de maiúsculas/minúsculas
