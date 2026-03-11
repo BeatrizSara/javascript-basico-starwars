@@ -58,6 +58,10 @@ body {
    color: #FD4;
 }
 
+.characters .item .remove {
+   color: rgb(205, 66,145)
+}
+
 input {
    padding: 0.75em 1.25em;
    border-radius: 8px;
